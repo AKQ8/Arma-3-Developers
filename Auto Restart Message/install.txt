@@ -1,3 +1,5 @@
+place (ArmaDevelopers_AutoRestart.pbo) in life_server\addons\
+
 Description.ext
 1- add (#include "Config_ServerRestart.hpp") under #include ("config\Config_Master.hpp")
 2- add (#include "Config_ServerRestart.hpp") in Class RscTitles {};
