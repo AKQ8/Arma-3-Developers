@@ -1,0 +1,12 @@
+Description.ext
+1- add (#include "Config_ServerRestart.hpp") under #include ("config\Config_Master.hpp")
+2- add (#include "Config_ServerRestart.hpp") in Class RscTitles {};
+
+CfgRemoteExec.hpp
+3- add the following:
+ F(AD_fnc_ServerRestartTimer,SERVER)
+ F(AD_fnc_DisplayWarning,CLIENT)
+
+you can use the warning feature:
+
+["Any Text Here"] spawn AD_fnc_DisplayWarning;
